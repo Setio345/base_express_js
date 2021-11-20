@@ -33,7 +33,7 @@ router.get('/', (req, res, next) => {
 });
 
 
-router.get('/sensor/:sensor1/:sensor2/:sensor3', (req, res, next) => {
+router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
   try {
       bot.sendMessage(
             global_msg_id, //msg.id
@@ -44,8 +44,7 @@ router.get('/sensor/:sensor1/:sensor2/:sensor3', (req, res, next) => {
         "messgae": "Success",
         "data": {
           "sensor_1": req.params.sensor1,
-          "sensor_2": req.params.sensor2,
-          "sensor_3": req.params.sensor3
+          "sensor_2": req.params.sensor2       
         }
       });
   } catch (err) {
