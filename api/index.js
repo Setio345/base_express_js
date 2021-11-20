@@ -32,7 +32,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-
+//https://esp-telegrambot.herokuapp.com/api/sensor/165/12
 router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
   try {
       bot.sendMessage(
@@ -53,6 +53,7 @@ router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
 });
 
 
+//https://esp-telegrambot.herokuapp.com/api/test/cobacoba
 router.get('/test/:key', function(req, res, next){
     bot.sendMessage(
             global_msg_id, //msg.id
