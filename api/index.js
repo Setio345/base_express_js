@@ -4,7 +4,7 @@ var router = express.Router();
 
 // Bot Setting
 const TelegramBot = require('node-telegram-bot-api');
-const token = 2118568007:AAHAcOf3YIGlDeNrBAf7KPRkJDDu2KIa_tU;
+const token = '2118568007:AAHAcOf3YIGlDeNrBAf7KPRkJDDu2KIa_tU' ;
 const bot = new TelegramBot(token, {polling: true});
 
 
@@ -33,7 +33,7 @@ router.get('/', (req, res, next) => {
 });
 
 
-router.get('/sensor/:sensor1:sensor2', (req, res, next) => {
+router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
   try {
       res.json({
         "status": 202,
@@ -49,7 +49,7 @@ router.get('/sensor/:sensor1:sensor2', (req, res, next) => {
 });
 
 
-r.get('/test/:key', function(req, res, next){
+router.get('/test/:key', function(req, res, next){
     bot.sendMessage(
             global_msg_id, //msg.id
             `${req.params.key}`
