@@ -25,16 +25,13 @@ bot.onText(/\/JII/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-            click /ACES : ACE HARDWARE INDONESIA \n
-            ADRO : ADARO ENERGY \n
-            AKRA : AKR CORPORINDO \n
-            ANTM : ANEKA TAMBANG \n
-            BRIS : BANK SYARIAH INDONESIA \n
-            BRPT : BARITO PASIFIC \n
-            CPIN : CHAROEN POKPHAND INDONESIA \n
-            ERAA : ERAJAYA SWASEMBADA \n
-            EXCL : XL AXIATA \n
-            ICBP : INDOFOOD CBP SUKSES MAKMUR
+click /ACES : ACE HARDWARE INDONESIA \n
+click /ADRO : ADARO ENERGY \n
+click /AKRA : AKR CORPORINDO \n
+click /ANTM : ANEKA TAMBANG \n
+click /ERAA : ERAJAYA SWASEMBADA \n
+click /EXCL : XL AXIATA \n
+click /ICBP : INDOFOOD CBP SUKSES MAKMUR
         `
     );
 });
@@ -44,17 +41,13 @@ bot.onText(/\/LQ_45/, (msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-            ACES : ACE HARDWARE INDONESIA \n
-            ADRO : ADARO ENERGY \n
-            AKRA : AKR CORPORINDO \n
-            ANTM : ANEKA TAMBANG \n
-            ASII : ASTRA INTERNATIONAL \n
-            BBCA : BANK CENTRAL ASIA \n
-            BBNI : BANK NEGARA INDONESIA \n
-            BBRI : BANK NEGARA REPUBLIK INDONESIA \n
-            BBTN : BANK TABUNGAN NEGARA \n
-            EXCL : XL AXIATA \n
-            INDF : INDOFOOD SUKSES MAKMUR
+click /ACES : ACE HARDWARE INDONESIA \n
+click /ADRO : ADARO ENERGY \n
+click /AKRA : AKR CORPORINDO \n
+click /ANTM : ANEKA TAMBANG \n
+click /ASII : ASTRA INTERNATIONAL \n
+click /EXCL : XL AXIATA \n
+click /INDF : INDOFOOD SUKSES MAKMUR
         `
     );
 });
@@ -77,11 +70,44 @@ bot.onText(/\/ACES/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        PT Adaro Indonesia (AI) adalah perusahaan tambang terbesar di Adaro Group 
-        , yang terutama mengoperasikan operasi penambangan batubara di Kalimantan Selatan dan Kalimantan Tengah
-        
+        https://finance.yahoo.com/quote/aces.jk/
         `
     );
 });
-
+bot.onText(/\/ADRO/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/adro.jk/
+        `
+    );
+});
+bot.onText(/\/AKRA/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/akra.jk/
+        `
+    );
+});
+bot.onText(/\/ADRO/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/akra.jk/
+        `
+    );
+});
+bot.onText(/\/ANTM/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/antm.jk/
+        `
+    );
+});
 module.exports = router;
