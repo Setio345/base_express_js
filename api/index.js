@@ -70,8 +70,10 @@ bot.onText(/\/ACES/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/aces.jk/\n
-        https://finance.yahoo.com/quote/ADRO.JK/chart?p=ACES.JK/
+summary    : https://finance.yahoo.com/quote/aces.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=ACES.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=ACES.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=ACES.JK/
         `
     );
 });
@@ -81,8 +83,10 @@ bot.onText(/\/ADRO/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/adro.jk/ \n
-        https://finance.yahoo.com/quote/ADRO.JK/chart?p=ADRO.JK/
+summary    : https://finance.yahoo.com/quote/adro.jk/ \n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=ADRO.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=ADRO.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=ADRO.JK/
         `
     );
 });
@@ -92,7 +96,10 @@ bot.onText(/\/AKRA/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/akra.jk/
+summary    : https://finance.yahoo.com/quote/akra.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=AKRA.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=AKRA.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=AKRA.JK/
         `
     );
 });
@@ -102,7 +109,10 @@ bot.onText(/\/ANTM/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/antm.jk/
+summary    : https://finance.yahoo.com/quote/antm.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=ANTM.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=ANTM.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=ANTM.JK/
         `
     );
 });
@@ -112,7 +122,10 @@ bot.onText(/\/EXCL/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/excl.jk/
+summary    : https://finance.yahoo.com/quote/excl.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=EXCL.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=EXCL.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=EXCL.JK/
         `
     );
 });
@@ -122,7 +135,11 @@ bot.onText(/\/ERAA/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/eraa.jk/
+summary    : https://finance.yahoo.com/quote/eraa.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=ERAA.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=ERAA.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=ERAA.JK/
+
         `
     );
 });
@@ -132,7 +149,10 @@ bot.onText(/\/ICBP/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/icbp.jk/
+summary    : https://finance.yahoo.com/quote/icbp.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=ICBP.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=ICBP.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=ICBP.JK/
         `
     );
 });
@@ -142,7 +162,10 @@ bot.onText(/\/ASII/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/asii.jk/
+summary    : https://finance.yahoo.com/quote/asii.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=ASII.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=ASII.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=ASII.JK/
         `
     );
 });
@@ -152,7 +175,10 @@ bot.onText(/\/INDF/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/indf.jk/
+summary    : https://finance.yahoo.com/quote/indf.jk/\n
+chart      : https://finance.yahoo.com/quote/ADRO.JK/chart?p=INDF.JK/\n
+statistic  : https://finance.yahoo.com/quote/ADRO.JK/key-statistics?p=INDF.JK/\n
+Historical : https://finance.yahoo.com/quote/ADRO.JK/history?p=INDF.JK/
         `
     );
 });
