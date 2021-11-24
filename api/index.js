@@ -72,7 +72,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-bot.onText(/\/JII/,(msg) => {
+bot.onText(/\/ACES/,(msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
