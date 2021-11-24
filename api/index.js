@@ -26,7 +26,7 @@ bot.onText(/\/JII/,(msg) => {
         global_msg_id,
         `
             ACES : ACE HARDWARE INDONESIA \n
-            ADRO : ADARO ENERGY \n
+            ADRO : ADARO ENERGY //https://www.adaro.com/\n
             AKRA : AKR CORPORINDO \n
             ANTM : ANEKA TAMBANG \n
             BRIS : BANK SYARIAH INDONESIA \n
@@ -72,7 +72,7 @@ router.get('/', (req, res, next) => {
   });
 });
 
-//https://esp-telegrambot.herokuapp.com/api/sensor/165/12
+//https://www.adaro.com/
 router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
   try {
       bot.sendMessage(
