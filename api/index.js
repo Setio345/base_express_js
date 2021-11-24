@@ -80,7 +80,8 @@ bot.onText(/\/ADRO/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/adro.jk/
+        https://finance.yahoo.com/quote/adro.jk/ \n
+        https://finance.yahoo.com/quote/ADRO.JK/chart?p=ADRO.JK/
         `
     );
 });
