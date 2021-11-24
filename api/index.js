@@ -74,6 +74,7 @@ bot.onText(/\/ACES/,(msg) => {
         `
     );
 });
+
 bot.onText(/\/ADRO/,(msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
@@ -83,6 +84,7 @@ bot.onText(/\/ADRO/,(msg) => {
         `
     );
 });
+
 bot.onText(/\/AKRA/,(msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
@@ -92,21 +94,63 @@ bot.onText(/\/AKRA/,(msg) => {
         `
     );
 });
-bot.onText(/\/ADRO/,(msg) => {
-    global_msg_id = msg.chat.id;
-    bot.sendMessage(
-        global_msg_id,
-        `
-        https://finance.yahoo.com/quote/akra.jk/
-        `
-    );
-});
+
 bot.onText(/\/ANTM/,(msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
         `
         https://finance.yahoo.com/quote/antm.jk/
+        `
+    );
+});
+
+bot.onText(/\/EXCL/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/excl.jk/
+        `
+    );
+});
+
+bot.onText(/\/ERAA/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/eraa.jk/
+        `
+    );
+});
+
+bot.onText(/\/ICBP/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/icbp.jk/
+        `
+    );
+});
+
+bot.onText(/\/ASII/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/asii.jk/
+        `
+    );
+});
+
+bot.onText(/\/INDF/,(msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+        https://finance.yahoo.com/quote/indf.jk/
         `
     );
 });
