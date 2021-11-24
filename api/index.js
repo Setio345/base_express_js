@@ -72,35 +72,16 @@ router.get('/', (req, res, next) => {
   });
 });
 
-//https://www.adaro.com/
-router.get('/sensor/:sensor1/:sensor2', (req, res, next) => {
-  try {
-      bot.sendMessage(
-            global_msg_id, //msg.id
-            `Pembacaan Sensor;; ${req.params.sensor1}, ${req.params.sensor2}`
-     );
-      res.json({
-        "status": 202,
-        "messgae": "Success",
-        "data": {
-          "sensor_1": req.params.sensor1,
-          "sensor_2": req.params.sensor2       
-        }
-      });
-  } catch (err) {
-      next(err);
-  }
-});
-
-
-//https://esp-telegrambot.herokuapp.com/api/test/cobacoba
-router.get('/test/:key', function(req, res, next){
+bot.onText(/\/JII/,(msg) => {
+    global_msg_id = msg.chat.id;
     bot.sendMessage(
-            global_msg_id, //msg.id
-            `${req.params.key}`
+        global_msg_id,
+        `
+        PT Adaro Indonesia (AI) adalah perusahaan tambang terbesar di Adaro Group 
+        , yang terutama mengoperasikan operasi penambangan batubara di Kalimantan Selatan dan Kalimantan Tengah
+        
+        `
     );
-    res.json(req.params.key);
 });
-
 
 module.exports = router;
