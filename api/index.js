@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
-        `hello ${msg.chat.first_name}, welcome...\n
+        `hello ${msg.chat.first_name}, selamat datang di index pasar saham indonesia \n
         click /JII \n
         click /LQ_45`
     );
@@ -70,7 +70,8 @@ bot.onText(/\/ACES/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-        https://finance.yahoo.com/quote/aces.jk/
+        https://finance.yahoo.com/quote/aces.jk/\n
+        https://finance.yahoo.com/quote/ADRO.JK/chart?p=ACES.JK/
         `
     );
 });
