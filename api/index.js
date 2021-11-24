@@ -29,7 +29,16 @@ bot.onText(/\/show_url/, (msg) => {
         `
     );
 });
-
+let global_msg_id;
+// Main Menu Bot
+bot.onText(/\/start/, (msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `hello ${msg.chat.first_name}, welcome...\n
+        click /LQ_45`
+    );
+});
 bot.onText(/\/LQ_45/, (msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
