@@ -15,18 +15,26 @@ bot.onText(/\/start/, (msg) => {
     bot.sendMessage(
         global_msg_id,
         `hello ${msg.chat.first_name}, welcome...\n
-        click /show_url \n
+        click /JII \n
         click /LQ_45`
     );
 });
 
-bot.onText(/\/show_url/, (msg) => {
+bot.onText(/\/JIImsg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
         `
-            //https://esp-telegrambot.herokuapp.com/api/sensor/165/12 \n
-            //https://esp-telegrambot.herokuapp.com/api/test/cobacoba
+            ACES : ACE HARDWARE INDONESIA \n
+            ADRO : ADARO ENERGY \n
+            AKRA : AKR CORPORINDO \n
+            ANTM : ANEKA TAMBANG \n
+            BRIS : BANK SYARIAH INDONESIA \n
+            BRPT : BARITO PASIFIC \n
+            CPIN : CHAROEN POKPHAND INDONESIA \n
+            ERAA : ERAJAYA SWASEMBADA \n
+            EXCL : XL AXIATA \n
+            ICBP : INDOFOOD CBP SUKSES MAKMUR
         `
     );
 });
@@ -36,9 +44,17 @@ bot.onText(/\/LQ_45/, (msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-            ACES: ACE HARDWARE INDONESIA \n
-            ADRO: ADARO ENERGY \n
-            AKRA: AKR CORPORINDO
+            ACES : ACE HARDWARE INDONESIA \n
+            ADRO : ADARO ENERGY \n
+            AKRA : AKR CORPORINDO \n
+            ANTM : ANEKA TAMBANG \n
+            ASII : ASTRA INTERNATIONAL \n
+            BBCA : BANK CENTRAL ASIA \n
+            BBNI : BANK NEGARA INDONESIA \n
+            BBRI : BANK NEGARA REPUBLIK INDONESIA \n
+            BBTN : BANK TABUNGAN NEGARA \n
+            EXCL : XL AXIATA \n
+            INDF : INDOFOOD SUKSES MAKMUR
         `
     );
 });
