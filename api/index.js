@@ -14,9 +14,10 @@ bot.onText(/\/start/, (msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
-        `hello ${msg.chat.first_name}, selamat datang di index pasar saham indonesia \n
-        click /JII \n
-        click /LQ_45`
+`hello ${msg.chat.first_name},\n
+selamat datang di index pasar saham indonesia \n
+click /JII \n
+click /LQ45`
     );
 });
 
