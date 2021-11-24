@@ -20,7 +20,7 @@ bot.onText(/\/start/, (msg) => {
     );
 });
 
-bot.onText(/\/JIImsg) => {
+bot.onText(/\/JII/,(msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
