@@ -25,8 +25,8 @@ bot.onText(/\/JII/,(msg) => {
     bot.sendMessage(
         global_msg_id,
         `
-            ACES : ACE HARDWARE INDONESIA \n
-            ADRO : ADARO ENERGY //https://www.adaro.com/\n
+            ACES : ACE HARDWARE INDONESIA https://www.acehardware.co.id/\n
+            ADRO : ADARO ENERGY https://www.adaro.com/\n
             AKRA : AKR CORPORINDO \n
             ANTM : ANEKA TAMBANG \n
             BRIS : BANK SYARIAH INDONESIA \n
