@@ -30,6 +30,18 @@ bot.onText(/\/show_url/, (msg) => {
     );
 });
 
+bot.onText(/\/LQ_45/, (msg) => {
+    global_msg_id = msg.chat.id;
+    bot.sendMessage(
+        global_msg_id,
+        `
+            ACES: ACE HARDWARE INDONESIA \n
+            ADRO: ADARO ENERGY \n
+            AKRA: AKR CORPORINDO
+        `
+    );
+});
+
 bot.on('message', (msg) => {
   console.log(msg);
 });
