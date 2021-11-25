@@ -37,7 +37,7 @@ click /ICBP : INDOFOOD CBP SUKSES MAKMUR
     );
 });
 
-bot.onText(/\/LQ_45/, (msg) => {
+bot.onText(/\/LQ45/, (msg) => {
     global_msg_id = msg.chat.id;
     bot.sendMessage(
         global_msg_id,
